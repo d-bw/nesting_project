@@ -6,3 +6,4 @@ celery
 flask-sqlalchemy
 flask-mysqldb
 pymysql
+opencv-python
