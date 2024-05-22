@@ -1,0 +1,8 @@
+pyngrok
+flask-cors
+flasgger
+oss2
+celery
+flask-sqlalchemy
+flask-mysqldb
+pymysql

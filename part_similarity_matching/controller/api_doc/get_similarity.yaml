@@ -1,0 +1,18 @@
+tags:
+  - 相似度匹配
+description: 零件相似度匹配接口
+parameters:
+  - name: image_upload
+    in: formData
+    description: 图像文件.
+    required: true
+    type: file
+
+    
+
+responses:
+  200:
+    description: 成功
+
+  500:
+    description: 失败，服务器内部错误

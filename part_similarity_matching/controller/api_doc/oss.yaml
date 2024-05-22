@@ -1,0 +1,15 @@
+tags:
+  - oss
+description: oss上传接口
+parameters:
+  - name: upload_yaml
+    in: formData
+    description: YAML 文件.
+    required: true
+    type: file
+
+responses:
+  200:
+    description: 成功
+  500:
+    description: 失败，服务器内部错误
